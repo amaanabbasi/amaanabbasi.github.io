@@ -1,15 +1,15 @@
 .navbar-brand.is-flex {
-    width:100%;
-    margin-top:0.01em;
+    width: 100%;
+    margin-top: 0.01em;
 }
 
-.navbar-start{
-    display:flex;
+.navbar-start {
+    display: flex;
 }
 
-.navbar-end{
-    display:flex;
-    margin-left:auto;
+.navbar-end {
+    display: flex;
+    margin-left: auto;
 }
 
 .my-background-1 {
