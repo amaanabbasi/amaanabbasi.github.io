@@ -30,3 +30,24 @@
         animation-delay: 2s;
         animation-iteration-count: infinite;
 }
+
+/** created by www.github.com/julianjp18 */
+.img-profile{
+    width: 20%;
+    border: .1em solid black;
+    border-radius: 31% 69% 70% 30% / 30% 30% 70% 70%;
+}
+
+.about-us{
+    margin-top: 3em;
+    margin-bottom: 3em; 
+}
+
+.line-shape{
+    width: 10%;
+    height: 2px;
+    margin-left: calc(49% - 40px);
+    background-color: var(--primary-font-color2);
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
