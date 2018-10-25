@@ -29,13 +29,13 @@
 }
 
 .my-background-1 {
-    background: url(./desktop-best-fit.svg);
+    background: url(/home/shubham/amaanabbasi.github.io/img/thumb-1920-637668.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .my-background-2 {
-    background: url(./img/polygon-3.svg);
+    background: url(/home/shubham/amaanabbasi.github.io/img/thumb-1920-637668.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,4 +45,9 @@
         animation-duration: 2s;
         animation-delay: 2s;
         animation-iteration-count: infinite;
+}
+
+.hero-body {
+		padding-bottom: 0px;
+		padding-top: 50px;
 }
