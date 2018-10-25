@@ -11,6 +11,22 @@
     display:flex;
     margin-left:auto;
 }
+.navbar-brand a.navbar-item {
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    -ms-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+}
+.navbar-brand a.navbar-item:hover {
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    -ms-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+    background-color: #ffffff;
+    color: #333333;
+}
 
 .my-background-1 {
     background: url(./desktop-best-fit.svg);
