@@ -1,71 +1,136 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Amaan Abbasi |</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" href="main.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-    <!-- animate css -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-    <!--
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amaan Abbasi |</title>
+  <link rel="icon" type="image/png" sizes="64x64" href='https://pengoox.pythonanywhere.com/static/img/A-logo.svg'>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+  <a href="https://icons8.com"></a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <!-- animate css -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      1.Please donot add hyper resource you donot need in you webpage. I guess JQUERY here is useless
-      and please remover other useless libraries along with comments.
+      1.Please do not add hyper resource you do not need in you webpage. I guess JQUERY here is useless
+      and please remove other useless libraries along with comments.
     -->
-  </head>
+<script src="script.js"></script> 
+</head>
+
 <body>
-    
-    <section class="hero has-background-light is-fullheight my-background-2 ">
-        <!-- Hero head: will stick at the top -->
-        <header class="hero-head">
-          <div class="container">
-            <nav class="navbar">
-                <div class="navbar-brand is-flex">
-                  <div class="navbar-start">
-                    <a class="navbar-item" href="https://www.github.com/amaanabbasi" target="_blank">
-                      <i class="fab fa-github"></i>
-                    </a> 
-                    <a class="navbar-item" href="https://www.linkedin.com/in/mohd-abbasi-22293813a/" target ="_blank">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="/https://twitter.com/AmaanPengoo" class="navbar-item" target="_blank">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  <div  class="navbar-end has-text-justified has-text-weight-normal">
-                    <a href="/" class="navbar-item">Home</a>
-                    <a href="/" class="navbar-item">About</a>
-                    <a href="https://pengoox.pythonanywhere.com" class="navbar-item" target="_blank">Blog</a>
-                  </div>
-                </div>
-            </nav>
-          </div>  
-        </header>
-      
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body ">
-          <div class="container has-text-centered">
-                <h1 id="animated-title"class="title is-1 animated pulse" style="font-size:3em;">
-                    Hi, I am Amaan.
-                  </h1>
-                  <h2 class="subtitle">
-                    I am a blogger, programmer and designer.
-                  </h2>
+
+  <section class="hero has-background-light is-fullheight my-background-2 ">
+    <!-- Hero head: will stick at the top -->
+    <header class="hero-head">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-brand is-flex">
+            <div class="navbar-start">
+              <a class="navbar-item" href="https://www.github.com/amaanabbasi" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a class="navbar-item" href="https://www.linkedin.com/in/mohd-abbasi-22293813a/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://twitter.com/AmaanPengoo" class="navbar-item" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="navbar-end has-text-justified has-text-weight-normal">
+              <a href="/"  class="navbar-item">Home</a>
+              <a href="#about"  class="navbar-item">About</a>
+              <a href="https://pengoox.pythonanywhere.com" class="navbar-item" target="_blank">Blog</a>
+            </div>
           </div>
-        </div>    
-    <script type="text/javascript">
-    // var animationName = "animated pulse"
-    // var animationend = "webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd"
-    // var animatedClass = ".title"
-    // $(animatedClass).mouseenter(function(event){
-    //     $(this).addClass(animationName);
-    // });
-    // $(animatedClass).on(animationend, function(event) {
-    //     $(this).removeClass(animationName);
-    // });
-    </script>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body" id="home">
+        <div class="container has-text-centered">
+            <h1 id="animated-title" class="title is-1 animated pulse" style="font-size:3em;">
+              Hi, I am Amaan.
+            </h1>
+            <h2 class="subtitle">
+              I am a blogger, programmer and designer.
+            </h2>
+            </div>
+    </div>
+  </section>
+    <div class="hero is-white">
+      <br>
+      <br>
+      <br>
+      <br>
+        <div class="container has-text-centered">
+            <div class="tile is-parent">
+              <div class="tile is-child is-primary box ">
+                <div class="title" id="about">You found it!</div>  
+                  <p style="margin:0 auto;max-width:800px">I started to learn programming right after my high school, and that was one of the 
+                  best decision I took . Right now, I have launched two start-ups and I enjoy most of my
+                  time writing code. ~<i>Liar</i>
+                  </p>
+                  <hr><figure class="image is-64x64 is-centered">
+                      <img src="https://pengoox.pythonanywhere.com/static/img/A-logo.svg" style="margin:0 auto;max-width:480px">
+                    </figure><hr>
+                  <div class="columns ">
+                      <div class="column">
+                        <div class="title">Languages</div>
+                        <ul>
+                          <li><img src="https://png.icons8.com/color/48/f1c40f/python.png"></li>
+                          <li><img src="https://png.icons8.com/color/40/f1c40f/source-code.png"></li>
+                          <li><img src="https://png.icons8.com/color/40/f1c40f/c-plus-plus-logo.png">, <img src="https://png.icons8.com/color/40/f1c40f/c-programming.png"></li>
+                          <li><img src="https://png.icons8.com/ios/40/f1c40f/javascript.png"></li>
+                        </ul>
+                      </div>
+                      <div class="column">
+                        <div class="title">Frameworks</div>
+                        <ul>
+                          <li>Django</li>
+                          <li>Flask</li>
+                          <li>Vue</li>                                        
+                        </ul>
+                      </div>   
+                      <div class="column">
+                          <div class="title">Tools</div>
+                          <ul>
+                          <li><img src="https://png.icons8.com/windows/40/000000/github.png"></li>
+                          <li><img src="https://png.icons8.com/windows/50/000000/visual-studio.png"></li>
+                          <li><img src="https://png.icons8.com/color/40/f1c40f/adobe-illustrator.png"></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="title">Recent Works</div>
+                        <div class="columns">
+                          <div class="column">
+                            <div class="tile notification is-primary">
+                                <figure class="image">
+                                    <img src="https://pengoox.pythonanywhere.com/static/img/A-logo.svg">
+                                  </figure>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deleniti est blanditiis eligendi vel inventore eum quos accusamus error eveniet?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis doloribus voluptatum nihil deserunt incidunt est dolorem reiciendis harum ullam amet?</div>
+                          </div>
+                          <div class="column">
+                              <div class="tile notification is-warning">
+                                  <figure class="image">
+                                      <img src="https://pengoox.pythonanywhere.com/static/img/A-logo.svg">
+                                    </figure>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea est facere, perspiciatis aliquid dolor corporis sint consequuntur non accusantium!Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quibusdam quisquam officia amet libero aliquam alias a cupiditate atque praesentium!</div>
+                            </div>
+                        </div>   
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
