@@ -10,7 +10,7 @@ $(animatedClass).on(animationend, function(event) {
     $(this).removeClass(animateName);
 });
 
-function toggleActive(newActiveTab) {
+const toggleActive = (newActiveTab) => {
     $(".navbar-nav > li > a").removeClass("active");
     $(`#${newActiveTab}`).addClass("active");
     $(".hero-body").hide();
@@ -18,7 +18,7 @@ function toggleActive(newActiveTab) {
     $(`#hero-${newActiveTab}`).show();
   }
 
-function getHome() {
+const getHome = () => {
     $("#hero-home").append(
         `<div class="container has-text-centered">
         <h1 id="animated-title" class="title is-1 animated pulse" style="font-size:3em;">
@@ -30,7 +30,7 @@ function getHome() {
         </div>`);
 }
 
-function getAbout() {
+const getAbout = () => {
     $("#hero-about").append(
         `<section style="padding-left:0;padding-right:0" class="section">
         <div class="tile is-ancestor">
